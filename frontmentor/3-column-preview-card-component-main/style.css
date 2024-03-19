@@ -1,0 +1,52 @@
+body{
+    background: hsl(0,0%,95% saturation, lightness);
+    font-family: 'Kumbh Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+.container{
+    display: flex;
+    gap: 1.5 rem;
+}
+
+.container1{
+    background-color:  #e28629;
+    border-radius: 8px;
+    justify-content: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0, 0.1);
+}
+.container-suvs{
+    background-color: #06626b ;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-luxury{
+    background-color: #043b42 ;
+    flex-direction: column;
+    justify-content: center;
+}
+/* MÓVIL */
+
+@media (width < 425px) {
+
+}
+    .container{
+        flex-direction: column;
+
+    }
+
+/* TABLET */
+@media (425px < width < 768px ) {
+
+}
+
+/* PANTALLA TV */
+@media (width >= 768px ) {
+
+}
